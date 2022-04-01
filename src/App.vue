@@ -44,6 +44,16 @@ nav a.router-link-exact-active {
   
 }
 
+.content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} 
+
+.card{
+  margin-bottom: 50px;
+}
+
 </style>
 
 
