@@ -7,3 +7,16 @@ Requires at least: 4.7
 Requires PHP: 5.2.4
 Author URI: https://www.linkedin.com/in/vitaliy-nosov-5543a8173/
 */
+
+header,footer{
+    background-color: #41B883;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px 20px 0px;
+}
+
+body{
+    background-color: red;
+}

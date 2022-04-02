@@ -10,7 +10,7 @@
             <div class="card-body">
               <h5 class="card-title">{{post.title}}</h5>
               <div class="card-test" v-html="post.excerpt"></div>
-              <router-link  type="button" class="btn btn-success" :to="`post/${post.id}`" >Read more</router-link>
+              <router-link  type="button" class="btn btn-success" :to="`/post/${post.id}`" >Read more</router-link>
             </div>
           </div>
         </div>

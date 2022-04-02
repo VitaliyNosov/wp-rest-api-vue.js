@@ -2,7 +2,7 @@
   <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
-    <router-link to="/pupok">Pupok</router-link> |
+    <router-link to="/post">Post</router-link> |
     <router-link to="/zalupok">Zalupok</router-link> |
     <router-link to="/wordpress-page">Word Press-Page</router-link>
   </nav>
@@ -50,8 +50,10 @@ nav a.router-link-exact-active {
   flex-wrap: wrap;
 } 
 
-.card{
-  margin-bottom: 50px;
+.post{
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 </style>
